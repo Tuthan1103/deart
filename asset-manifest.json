@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/deart/static/css/main.9166bc43.css",
-    "main.js": "/deart/static/js/main.43c676b8.js",
+    "main.css": "/deart/static/css/main.8e4cc884.css",
+    "main.js": "/deart/static/js/main.924dec7a.js",
     "static/media/logo1.png": "/deart/static/media/logo1.2c5e2b65604e120ab240.png",
-    "static/media/logo.jpg": "/deart/static/media/logo.17cd398a900409c5bbc9.jpg",
     "index.html": "/deart/index.html",
-    "main.9166bc43.css.map": "/deart/static/css/main.9166bc43.css.map",
-    "main.43c676b8.js.map": "/deart/static/js/main.43c676b8.js.map"
+    "main.8e4cc884.css.map": "/deart/static/css/main.8e4cc884.css.map",
+    "main.924dec7a.js.map": "/deart/static/js/main.924dec7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9166bc43.css",
-    "static/js/main.43c676b8.js"
+    "static/css/main.8e4cc884.css",
+    "static/js/main.924dec7a.js"
   ]
 }
