@@ -1,0 +1,79 @@
+/* Toàn bộ thanh Navbar */
+.navbar {
+    width: 100%;
+    background-color: #f9f9f7; 
+    color: #333;
+  }
+  
+  /* Phần trên của Navbar */
+  .navbar-top {
+    padding: 10px 20px; 
+  }
+  
+  /* Danh sách (Logo + Podcast + Mới nhất + Sôi nổi + Portfolio) */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Logo hình tròn */
+  .logo-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Icon chung (nếu có) */
+  .icon {
+    margin-right: 6px;  /* Khoảng cách giữa icon và chữ */
+    font-size: 18px;    
+    color: #333;        
+    vertical-align: middle; 
+  }
+  
+  /* Mặc định, mỗi li có một margin để giãn cách */
+  .navbar-links li {
+    margin: 0 20px;
+  }
+  
+  /* Giảm khoảng cách cho các mục từ item thứ 3 trở đi (Mới nhất, Sôi nổi, Portfolio)
+     => Nếu muốn cả item 2 (Podcast) cũng nhỏ lại, thêm ":nth-child(2)" luôn. */
+  .navbar-links li:nth-child(3),
+  .navbar-links li:nth-child(4),
+  .navbar-links li:nth-child(5) {
+    margin: 0 10px; /* Thu hẹp còn 10px */
+  }
+  
+  /* Link style cho Podcast, Mới nhất, Sôi nổi, Portfolio */
+  .navbar-links li a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* Phần dưới của Navbar (tùy chỉnh nếu cần) */
+  .navbar-bottom {
+    background-color: #f9f9f7; 
+  }
+  
+  .navbar-bottom-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .navbar-bottom-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  

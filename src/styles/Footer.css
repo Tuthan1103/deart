@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-links, .footer-socials {
+    margin: 10px 0;
+}
+
+.footer-links a, .footer-socials a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}

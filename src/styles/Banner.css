@@ -1,0 +1,31 @@
+.banner {
+    position: relative;
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
